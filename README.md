@@ -1,6 +1,6 @@
 # Coin Counter
 
-Este repositorio contiene la implementación de una aplicación de Android que detecta las monedas colombianas COP en una superficie y cuenta el valor total de las mismas. Utilizando técnicas de procesamiento de imágenes, la aplicación identifica y suma el valor de cada moneda detectada.
+Este repositorio contiene la implementación de una aplicación de Android que detecta las monedas en una superficie y cuenta el valor total de las mismas. Utilizando técnicas de procesamiento de imágenes, la aplicación identifica y suma el valor de cada moneda detectada.
 
 ## Contenido
 
