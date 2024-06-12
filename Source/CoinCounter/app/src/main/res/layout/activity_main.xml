@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt"
+        android:text="Contar monedas de pesos colombianos"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_centerHorizontal="true"
+        />
+
+    <androidx.camera.view.PreviewView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:id="@+id/camera_preview"
+        android:layout_height="350dp"
+        >
+    </androidx.camera.view.PreviewView>
+
+    <ImageView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/img"
+        android:layout_below="@id/txt"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir Camara"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/img"
+        android:layout_centerHorizontal="true"
+        />
+
+    <!--<Button
+        android:id="@+id/buttonGaleria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir Galeria"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/button"
+        android:layout_centerHorizontal="true"
+        />-->
+
+</RelativeLayout>
