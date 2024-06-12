@@ -10,7 +10,7 @@ Este repositorio contiene la implementación de una aplicación de Android que d
 4. [Referencias](#Referencias)
 
 ## Abstract
-La detección y conteo de monedas es un desafío que se puede abordar eficazmente mediante técnicas de procesamiento de imágenes. Esta aplicación de Android emplea métodos como el método de Hough para identificar y contar monedas de COP en una superficie, proporcionando una estimación del valor total. La implementación incluye el uso del método de Hough para la detección y clasificación de monedas mediante la detección de circulos.
+La detección y conteo de monedas es un desafío que se puede abordar eficazmente mediante técnicas de procesamiento de imágenes. Esta aplicación de Android emplea métodos como el método de Hough para identificar y contar monedas en una superficie, proporcionando una estimación del valor total. La implementación incluye el uso del método de Hough para la detección y clasificación de monedas mediante la detección de circulos.
 
 ## Tecnologías_Utilizadas
 * Java/Kotlin: Lenguaje de programación principal para la implementación de la aplicación.
